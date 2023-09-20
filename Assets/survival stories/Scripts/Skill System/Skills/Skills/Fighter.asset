@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d67a99b3ae76864da8da789465f796e, type: 3}
+  m_Name: Fighter
+  m_EditorClassIdentifier: 
+  StringID: 
+  objectType: 0
+  displayName: Fighter
+  info: Deals more damage (rounded up)
+  icon: {fileID: 21300000, guid: 92c58514eeafb4d69ab3fa4044df4751, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  skilltype: 2
+  use: 2
+  cost: 1
+  tierLevel: 0
+  Unlocked: 0
+  tiers:
+  - 5
+  - 8
+  - 12
+  - 15
+  - 20
+  effectedTrait: {fileID: 0}
+  effectedStat: {fileID: 11400000, guid: bb064ecbf6500ab4486b2d5efdd4d119, type: 2}

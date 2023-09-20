@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae722944ea089d54b8473de1c92a5667, type: 3}
+  m_Name: Campfire
+  m_EditorClassIdentifier: 
+  StringID: B_campfire
+  objectType: 8
+  displayName: Cozy campfire
+  info: 
+  icon: {fileID: -1836893800, guid: 433cfe780d4b5b34081dc3225adf7453, type: 3}
+  prefab: {fileID: 7777662096199501468, guid: 8beb6ecdd353f774da44345da5174373, type: 3}
+  stackSize: 0
+  totalTimesInteracted: 0
+  price:
+  - objectData: {fileID: 11400000, guid: d242044e6197fe940b22fcb61f55eb82, type: 2}
+    quantity: 10
+  buildingsAOE: []
+  aoeRange: 1
+  maxAllowed: 2
+  breakTime: 100
+  constructionTime: 2
+  aoeEffects: []
+  totalAmmount: 0

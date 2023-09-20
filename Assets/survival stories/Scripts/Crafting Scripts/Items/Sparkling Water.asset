@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6514d5cad9a80d941a2ab7b8de8aa592, type: 3}
+  m_Name: Sparkling Water
+  m_EditorClassIdentifier: 
+  StringID: T_swater
+  objectType: 4
+  displayName: Sparkling Water
+  info: Consuming recovers 300 thirst. Furthermore adds a buff that stops thirst
+    decay for 10 minutes.
+  icon: {fileID: 21300000, guid: c1c55c101b529408c8d0983860a30112, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  price:
+  - objectData: {fileID: 11400000, guid: acb3b29a579e60247b3256b712e43f08, type: 2}
+    quantity: 3
+  - objectData: {fileID: 11400000, guid: c2129252e3671f84cb61b6ce7fee1e12, type: 2}
+    quantity: 3
+  buildingsAOE: []
+  Damage: 0
+  durability: 0
+  durabilityLossRate: 0
+  doubleCraftChance: 0
+  HarvestSpeed: 0
+  toolType: 4
+  useType: 2
+  doubleHarvestChance: 0
+  res: 0
+  toolEffects:
+  - {fileID: 11400000, guid: 3fe724cc3231b974e89af443d8bd2ae3, type: 2}
+  contains:
+    data: {fileID: 0}
+    maxQuantity: 0
+    NewIcons: []
+  backgroundColors: []
+  totalAmmount: 0

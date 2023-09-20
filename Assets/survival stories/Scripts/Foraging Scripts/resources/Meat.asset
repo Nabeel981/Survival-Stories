@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f0871fc53caf343add947243074ff9, type: 3}
+  m_Name: Meat
+  m_EditorClassIdentifier: 
+  StringID: R_meat
+  objectType: 1
+  displayName: Meat
+  info: Tasty meat. Just needs a bit of a sear.
+  icon: {fileID: 21300000, guid: 16251c994c59d4480967baf341a074e6, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 50
+  totalTimesInteracted: 0
+  resourcesType: 1024
+  resourceBehaviour: 6
+  harvestingSpeed: 0
+  doubleChance: 0
+  gatheringRequirments: []
+  res: []
+  effects:
+  - {fileID: 11400000, guid: 2791c9d6b1760b14abd7339a1fd0bab0, type: 2}
+  totalAmmount: 0

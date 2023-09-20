@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefe41af250ed3045b9d00e5201df322, type: 3}
+  m_Name: CurrentGameDefaults
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  items:
+  - resourcesType: 0
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 1
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 2
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 4
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 8
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 16
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 32
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 64
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 128
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 256
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 512
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  - resourcesType: 1024
+    tool: {fileID: 11400000, guid: f18c3e0807680bd40a090332bdd474e5, type: 2}
+  currentBuildingsInfo:
+  - building: {fileID: 11400000, guid: ffc8d610d7925354ca3e1a6e201ca90d, type: 2}
+    currentlyPlaced: 0
+    DurationPassed: 0
+    effectedThings: 0
+    effectInRange: 0
+  - building: {fileID: 11400000, guid: 71ccb95a75e9f3f429ec56d14a7e9327, type: 2}
+    currentlyPlaced: 0
+    DurationPassed: 0
+    effectedThings: 0
+    effectInRange: 0
+  - building: {fileID: 11400000, guid: ab37a7546d4de9c4791ef3add46ca3f6, type: 2}
+    currentlyPlaced: 0
+    DurationPassed: 0
+    effectedThings: 0
+    effectInRange: 0
+  - building: {fileID: 11400000, guid: 8cb6d26f07f32d9489e0f8a9b5ca54ab, type: 2}
+    currentlyPlaced: 0
+    DurationPassed: 0
+    effectedThings: 0
+    effectInRange: 0
+  pTraits:
+  - {fileID: 11400000, guid: cb42ba423b1a0b84fbada0ef22144402, type: 2}
+  - {fileID: 11400000, guid: d0023fe69bf94794d8671c5ced03dc8d, type: 2}
+  - {fileID: 11400000, guid: cbb7fddf7f0a3ac4190fd8747cac6578, type: 2}
+  - {fileID: 11400000, guid: fa36db1ed0a8a6a4681c028669a9e7b8, type: 2}
+  - {fileID: 11400000, guid: 8778ce89d0155524a816e274693d6640, type: 2}

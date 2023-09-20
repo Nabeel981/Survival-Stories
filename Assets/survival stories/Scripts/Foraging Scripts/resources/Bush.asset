@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f0871fc53caf343add947243074ff9, type: 3}
+  m_Name: Bush
+  m_EditorClassIdentifier: 
+  StringID: R_bush
+  objectType: 1
+  displayName: Bush
+  info: 
+  icon: {fileID: 0}
+  prefab: {fileID: 0}
+  stackSize: 10
+  totalTimesInteracted: 0
+  resourcesType: 16
+  resourceBehaviour: 2
+  harvestingSpeed: 10
+  doubleChance: 0
+  gatheringRequirments: []
+  res:
+  - {fileID: 11400000, guid: 1a900c481da69c2449deffad86a4d595, type: 2}
+  - {fileID: 11400000, guid: c2129252e3671f84cb61b6ce7fee1e12, type: 2}
+  - {fileID: 11400000, guid: e9a4b74975e0b0945acae470e7e425aa, type: 2}
+  - {fileID: 11400000, guid: 4bd44059fe504bf4488f6edebe60ba7b, type: 2}
+  effects: []
+  totalAmmount: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f0871fc53caf343add947243074ff9, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  StringID: R_water
+  objectType: 1
+  displayName: Water
+  info: Clean, delicious water.
+  icon: {fileID: 21300000, guid: 2c8521fc29b12d34c9dcaebe78af5186, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 50
+  totalTimesInteracted: 0
+  resourcesType: 8
+  resourceBehaviour: 5
+  harvestingSpeed: 10
+  doubleChance: 0
+  gatheringRequirments:
+  - {fileID: 11400000, guid: f6c7d86949b902c4e9fca0b0d7deaac5, type: 2}
+  res: []
+  effects:
+  - {fileID: 11400000, guid: 2d16b403939865244a3806f63a380257, type: 2}
+  totalAmmount: 0

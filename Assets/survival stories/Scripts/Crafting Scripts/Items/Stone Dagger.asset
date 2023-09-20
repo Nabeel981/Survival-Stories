@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6514d5cad9a80d941a2ab7b8de8aa592, type: 3}
+  m_Name: Stone Dagger
+  m_EditorClassIdentifier: 
+  StringID: T_sdagger
+  objectType: 4
+  displayName: Stone Dagger
+  info: Increases damage by 5
+  icon: {fileID: 21300000, guid: c5a853945a6504c82982db4846834ec1, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  price:
+  - objectData: {fileID: 11400000, guid: d242044e6197fe940b22fcb61f55eb82, type: 2}
+    quantity: 3
+  - objectData: {fileID: 11400000, guid: 87f91a77dc81b7d4c827e4b25d266e41, type: 2}
+    quantity: 3
+  buildingsAOE: []
+  Damage: 5
+  durability: 100
+  durabilityLossRate: 1
+  doubleCraftChance: 0
+  HarvestSpeed: 0
+  toolType: 0
+  useType: 0
+  doubleHarvestChance: 0
+  res: 0
+  toolEffects: []
+  contains:
+    data: {fileID: 0}
+    maxQuantity: 0
+    NewIcons: []
+  backgroundColors:
+  - {r: 0.8301887, g: 0.59484756, b: 0.5286579, a: 1}
+  - {r: 0.9574124, g: 1, b: 0.6273585, a: 1}
+  - {r: 0.472259, g: 0.8207547, b: 0.46070665, a: 1}
+  totalAmmount: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89c9c6890e7d4246b9099468a937eb3, type: 3}
+  m_Name: Woody
+  m_EditorClassIdentifier: 
+  StringID: 
+  objectType: 0
+  displayName: Woody
+  info: Chance to get 2x wood when chopping wood
+  icon: {fileID: 305224526, guid: deae753eeeb938b419315f0595849567, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  skilltype: 6
+  use: 2
+  cost: 1
+  tierLevel: 0
+  Unlocked: 0
+  tiers:
+  - 0.2
+  - 0.5
+  - 0.8
+  - 1
+  - 1.2
+  effectedData: {fileID: 11400000, guid: d242044e6197fe940b22fcb61f55eb82, type: 2}

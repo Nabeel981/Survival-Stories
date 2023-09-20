@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6514d5cad9a80d941a2ab7b8de8aa592, type: 3}
+  m_Name: Shovel
+  m_EditorClassIdentifier: 
+  StringID: T_shovel
+  objectType: 4
+  displayName: shovel
+  info: Destroys a building. Option will pop up if shovel is in inventory and near
+    a building
+  icon: {fileID: 21300000, guid: 1a96ab5f501a8e84c9016458682e1ccb, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  price:
+  - objectData: {fileID: 11400000, guid: d242044e6197fe940b22fcb61f55eb82, type: 2}
+    quantity: 5
+  - objectData: {fileID: 11400000, guid: 87f91a77dc81b7d4c827e4b25d266e41, type: 2}
+    quantity: 5
+  buildingsAOE: []
+  Damage: 0
+  durability: 0
+  durabilityLossRate: 1
+  doubleCraftChance: 0
+  HarvestSpeed: 0
+  toolType: 0
+  useType: 0
+  doubleHarvestChance: 0
+  res: 0
+  toolEffects:
+  - {fileID: 0}
+  contains:
+    data: {fileID: 0}
+    maxQuantity: 0
+    NewIcons: []
+  backgroundColors: []
+  totalAmmount: 0

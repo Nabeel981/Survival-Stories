@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bd37c846de1d34ab133656fe5461c1, type: 3}
+  m_Name: AttackState
+  m_EditorClassIdentifier: 
+  animationBlendTreeFloat: 0.5
+  action:
+  - {fileID: 11400000, guid: 645f3da48da0f124c810677551caf745, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 7cd01b4ac74dd004d817191eccc50eb2, type: 2}
+    trueState: {fileID: 11400000, guid: 943da5299b03bf44ea2fdaf263c5b3d9, type: 2}
+    falseState: {fileID: 11400000, guid: fd70b89e32df8a74c8127cf6eca053a3, type: 2}

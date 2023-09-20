@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae722944ea089d54b8473de1c92a5667, type: 3}
+  m_Name: Mixer
+  m_EditorClassIdentifier: 
+  StringID: B_mixer
+  objectType: 8
+  displayName: Mixer
+  info: Make Potions
+  icon: {fileID: 21300000, guid: 6b5818364a5f74f4292f50b863208278, type: 3}
+  prefab: {fileID: 2166926719976207503, guid: 15a9f97a03507564e94abbb8a883153e, type: 3}
+  stackSize: 0
+  totalTimesInteracted: 0
+  price:
+  - objectData: {fileID: 11400000, guid: d242044e6197fe940b22fcb61f55eb82, type: 2}
+    quantity: 15
+  buildingsAOE: []
+  aoeRange: 0.5
+  maxAllowed: 1
+  breakTime: 1000
+  constructionTime: 5
+  aoeEffects: []
+  totalAmmount: 0

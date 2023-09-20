@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6514d5cad9a80d941a2ab7b8de8aa592, type: 3}
+  m_Name: Bottle
+  m_EditorClassIdentifier: 
+  StringID: T_Bottle
+  objectType: 4
+  displayName: Bottle
+  info: 'Bottle Enables water collection for one stack of liquid.   '
+  icon: {fileID: 21300000, guid: 707969049b95f144fae32ee55d5fa564, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 5
+  totalTimesInteracted: 0
+  price:
+  - objectData: {fileID: 11400000, guid: d242044e6197fe940b22fcb61f55eb82, type: 2}
+    quantity: 10
+  buildingsAOE: []
+  Damage: 0
+  durability: 100
+  durabilityLossRate: 0
+  doubleCraftChance: 0
+  HarvestSpeed: 2
+  toolType: 12
+  useType: -1
+  doubleHarvestChance: 0
+  res: 8
+  toolEffects:
+  - {fileID: 11400000, guid: 2d16b403939865244a3806f63a380257, type: 2}
+  contains:
+    data: {fileID: 11400000, guid: acb3b29a579e60247b3256b712e43f08, type: 2}
+    maxQuantity: 5
+    NewIcons:
+    - {fileID: 21300000, guid: a7163c6fd94624c289e095b4f71a6291, type: 3}
+    - {fileID: 21300000, guid: 7ae3aa40059ef43bfb737c101307cf4b, type: 3}
+    - {fileID: 21300000, guid: 1b195246de82c4ff1adcd3bae4113b29, type: 3}
+    - {fileID: 21300000, guid: b69f77d64e19243f9922c21051b067c1, type: 3}
+  backgroundColors: []
+  totalAmmount: 0

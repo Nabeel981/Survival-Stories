@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d705220d1daba6d419cd81bd1b21e29b, type: 3}
+  m_Name: Long Range
+  m_EditorClassIdentifier: 
+  StringID: 
+  objectType: 0
+  displayName: LongRange
+  info: AOE of buildings increase
+  icon: {fileID: 21300000, guid: 0798931105389444a96e8b70bd9937c9, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  skilltype: 10
+  use: 2
+  cost: 1
+  tierLevel: 0
+  Unlocked: 0
+  tiers:
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  effectedData: {fileID: 0}

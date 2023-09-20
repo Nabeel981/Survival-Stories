@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b979c0d742bbf946915273924a1b689, type: 3}
+  m_Name: Stoner
+  m_EditorClassIdentifier: 
+  StringID: 
+  objectType: 0
+  displayName: Stoner
+  info: Chance to get 2x stone when mining stone
+  icon: {fileID: 21300000, guid: d0eb0a9b0830b4c0bbc18dfa164f2492, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  skilltype: 7
+  use: 2
+  cost: 1
+  tierLevel: 0
+  Unlocked: 0
+  tiers:
+  - 0.2
+  - 0.5
+  - 0.8
+  - 1
+  - 1.2
+  effectedData: {fileID: 11400000, guid: 87f91a77dc81b7d4c827e4b25d266e41, type: 2}

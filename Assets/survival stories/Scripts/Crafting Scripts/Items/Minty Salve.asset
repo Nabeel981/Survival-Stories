@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6514d5cad9a80d941a2ab7b8de8aa592, type: 3}
+  m_Name: Minty Salve
+  m_EditorClassIdentifier: 
+  StringID: T_msalve
+  objectType: 4
+  displayName: Minty Salve
+  info: Heals slowly over a period of time. 600 HP over 30 seconds.
+  icon: {fileID: 21300000, guid: f28d9096557f949248bc6afa315cadcf, type: 3}
+  prefab: {fileID: 0}
+  stackSize: 0
+  totalTimesInteracted: 0
+  price:
+  - objectData: {fileID: 11400000, guid: ffa2ee375e42fe342ae5a076a2dae3ed, type: 2}
+    quantity: 5
+  - objectData: {fileID: 11400000, guid: e9a4b74975e0b0945acae470e7e425aa, type: 2}
+    quantity: 3
+  buildingsAOE:
+  - {fileID: 11400000, guid: ab37a7546d4de9c4791ef3add46ca3f6, type: 2}
+  Damage: 0
+  durability: 0
+  durabilityLossRate: 0
+  doubleCraftChance: 0
+  HarvestSpeed: 0
+  toolType: 4
+  useType: 2
+  doubleHarvestChance: 0
+  res: 0
+  toolEffects:
+  - {fileID: 11400000, guid: 6fe93df7cebc55341956cf8a3495589f, type: 2}
+  contains:
+    data: {fileID: 0}
+    maxQuantity: 0
+    NewIcons: []
+  backgroundColors: []
+  totalAmmount: 0
